@@ -1,0 +1,13 @@
+﻿%YAML 1.1
+---
+!Docs
+!SiteTemplate.Domain.Security.AccessLevels
+AccessLevel: Full*              (read: Full Elevated)
+AccessLevel: Full  
+AccessLevel: Restricted**       (read: Restricted Elevated Additional)
+AccessLevel: Restricted*        (read: Restricted Elevated)
+AccessLevel: Restricted
+AccessLevel: Denied
+Document Created On: Wednesday, August 2, 2017
+Document Last Updated On: Wednesday, August 2, 2017
+...

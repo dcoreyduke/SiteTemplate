@@ -1,0 +1,248 @@
+﻿@{
+    ViewBag.Title = "Site Template";
+    Layout = null;  //Does not inherit the Shared Layout
+}
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+
+<head id="index-head">
+
+    <!-- META Tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <!-- Title -->
+    <title>
+        @ViewBag.Title
+    </title>
+
+    <!-- Fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+    <!-- Render Assets -->
+    @Scripts.Render("/assets/material-kit-scripts");
+    @Styles.Render("/assets/material-kit-styles");
+
+
+    <style type="text/css">
+        #headerDiv {
+            background-image: url('../../assets/img/bg-img/1.jpg');
+        }
+    </style>
+
+</head>
+
+<body id="index-body" class="index-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <img src="../../assets/img/logo.png" alt="Site Template Logo" rel="tooltip" title="This is the <b>Logo</b> for the Site" data-placement="bottom" data-html="true">
+                        </div>
+                        <div class="brand">
+                            Site Template
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navigation-index">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="@Url.Action("Index", "Account")">
+                            <i class="material-icons">account_circle</i>   <!-- Login/Logout | User Account -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", "Dashboard")">
+                            <i class="material-icons">dashboard</i>        <!-- Dashboard -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", "Calendar")">
+                            <i class="material-icons">event</i>            <!-- Calendar -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", "Message")">
+                            <i class="material-icons">notifications</i>    <!-- Notifications/Messages -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Settings", "Account")">
+                            <i class="material-icons">settings</i>         <!-- Settings -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("About", "Home")">
+                            <i class="material-icons">help</i>             <!-- Help/About -->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <div id="headerDiv" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="brand">
+                            <h1>Site Template</h1>
+                            <h3>This template uses Angular Materials and Bootstrap!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Main -->
+        <div class="main main-raised">
+
+            <!-- Section (section-basic) -->
+            <div class="section section-basic">
+                <div class="container">
+
+                    @{
+                        for (int x = 0; x < 10; x++)
+                        {
+                            <div class="space-100"></div>
+                        }
+                    }
+
+                </div>
+            </div>
+            <!-- End Section (section-basic) -->
+            <!-- Section (section-navbars) -->
+            <div class="section section-navbars">
+                <div class="container">
+
+                    @{
+                        for (int x = 0; x < 10; x++)
+                        {
+                            <div class="space-100"></div>
+                        }
+                    }
+
+                </div>
+            </div>
+            <!-- End Section (section-navbars)  -->
+            <!-- Section (section-tabs) -->
+            <div class="section section-tabs">
+                <div class="container">
+
+                    @{
+                        for (int x = 0; x < 10; x++)
+                        {
+                            <div class="space-100"></div>
+                        }
+                    }
+
+                </div>
+            </div>
+            <!-- End Section (section-tabs)  -->
+            <!-- Section (section-pagination) -->
+            <div class="section section-pagination">
+                <div class="container">
+
+                    @{
+                        for (int x = 0; x < 10; x++)
+                        {
+                            <div class="space-100"></div>
+                        }
+                    }
+
+                </div>
+            </div>
+            <!-- End Section (section-pagination)  -->
+            <!-- Section (section-notifications) -->
+            <div class="section section-notifications">
+                <div class="container">
+
+                    @{
+                        for (int x = 0; x < 10; x++)
+                        {
+                            <div class="space-100"></div>
+                        }
+                    }
+
+                </div>
+            </div>
+            <!-- End Section (section-notifications)  -->
+
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="http://localhost">
+                                DCoreyDuke
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://localhost">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://localhost">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://localhost">
+                                Licenses
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    &copy; 2017, made with <i class="material-icons">favorite</i> by DCoreyDuke.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End Wrapper -->
+
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+    $().ready(function () {
+        // the body of this function is in assets/material-kit.js
+        window_width = $(window).width();
+
+        if (window_width >= 992) {
+            big_image = $('.wrapper > .header');
+
+            $(window).on('scroll', materialKitDemo.checkScrollForParallax);
+        }
+
+    });
+</script>

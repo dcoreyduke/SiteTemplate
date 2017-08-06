@@ -1,0 +1,4 @@
+C:\Users\dcore\Documents\Visual Studio 2017\Projects\SiteTemplate\SiteTemplate\assets\img\bg-img\11.jpg|5592
+C:\Users\dcore\Documents\Visual Studio 2017\Projects\SiteTemplate\SiteTemplate\assets\img\bg-img\12.jpg|4825
+C:\Users\dcore\Documents\Visual Studio 2017\Projects\SiteTemplate\SiteTemplate\assets\img\bg-img\16.jpg|4875
+C:\Users\dcore\Documents\Visual Studio 2017\Projects\SiteTemplate\SiteTemplate\assets\img\bg-img\3.jpg|3768

@@ -1,0 +1,49 @@
+%YAML 1.1
+---
+!Docs
+!SiteTemplate.Domain.Security.Roles
+Role: System
+  Id: 0
+  Access: Full*
+  Description: 'Used for updates, maintenance, automated functionality, other'
+  Jobs: (none)
+Role: Administrator
+  Id: 1
+  Access: Full
+  Description: 'A user with full access and control of the entire site.'
+  Jobs: |
+    Administrator
+    Developer
+    Stake Holder
+    IT
+Role: Manager
+  Id: 2
+  Access: Restricted**
+  Description: 'A user with additional elevated permissions granted to facilitate the management of a portion of the site.'
+  Jobs: | 
+    Forum Moderator
+    Event Coordinator
+    Email Campaign Manager
+    Advertising Manager
+    Web Designer
+    Report Manager
+    Social Media Manager
+Role: Editor
+  Id: 3
+  Access: Restricted*
+  Description: 'A user with elevated permissions granted to facilitate editing, contributing to, or otherwise modifying a portion of the site.'
+  Jobs: |
+    {Blog, Wiki, Forum, Newsletter} Editor
+    Article Editor
+    RSS Feed Editor
+Role: User
+  Id: 4
+  Description: 'A standard user account'
+  Jobs: |
+    End User
+    Report Viewer
+    {Blog, Wiki, Forum, Newsletter} Contributor
+Document Created On: Wednesday, August 2, 2017
+Document Last Updated On: Wednesday, August 2, 2017
+...
+

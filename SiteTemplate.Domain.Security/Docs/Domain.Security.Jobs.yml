@@ -1,0 +1,33 @@
+﻿%YAML 1.1
+---
+!Docs
+!SiteTemplate.Domain.Jobs
+Job: Administrator
+Job: Developer
+Job: Stake Holder
+Job: IT
+Job: Server Admin
+Job: DB Admin
+Job: Forum Moderator
+Job: Event Coordinator
+Job: Email Campaign Manager
+Job: Advertising Manager
+Job: Web Designer
+Job: Report Manager
+Job: Report Creator
+Job: Social Media Manager
+Job: Blog Editor
+Job: Wiki Editor
+Job: Forum Editor
+Job: Newsletter Editor
+Job: Article Editor
+Job: RSS Feed Editor
+Job: Report Editor
+Job: Report Viewer
+Job: Blog Contributor
+Job: Wiki Contributor
+Job: Forum Contributor
+Job: Newsletter Contributor
+Document Created On: Wednesday, August 2, 2017
+Document Last Updated On: Wednesday, August 2, 2017
+...

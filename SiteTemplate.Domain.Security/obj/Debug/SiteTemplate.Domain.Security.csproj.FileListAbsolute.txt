@@ -1,0 +1,5 @@
+C:\Users\dcore\documents\visual studio 2017\Projects\SiteTemplate\SiteTemplate.Domain.Security\bin\Debug\SiteTemplate.Domain.Security.dll
+C:\Users\dcore\documents\visual studio 2017\Projects\SiteTemplate\SiteTemplate.Domain.Security\bin\Debug\SiteTemplate.Domain.Security.pdb
+C:\Users\dcore\documents\visual studio 2017\Projects\SiteTemplate\SiteTemplate.Domain.Security\obj\Debug\SiteTemplate.Domain.Security.csprojResolveAssemblyReference.cache
+C:\Users\dcore\documents\visual studio 2017\Projects\SiteTemplate\SiteTemplate.Domain.Security\obj\Debug\SiteTemplate.Domain.Security.dll
+C:\Users\dcore\documents\visual studio 2017\Projects\SiteTemplate\SiteTemplate.Domain.Security\obj\Debug\SiteTemplate.Domain.Security.pdb

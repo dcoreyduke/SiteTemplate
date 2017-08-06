@@ -1,0 +1,37 @@
+﻿%YAML 1.1
+---
+!Docs
+!SiteTemplate.Domain.Security.JobsByRole
+System: (none)
+Administrator: (list)
+  - Administrator
+  - Developer
+  - Stake Holder
+  - IT
+    ^ Server Admin, DB Admin
+Manager: (list)
+  - Forum Moderator
+  - Event Coordinator
+  - Email Campaign Manager
+  - Advertising Manager
+  - Web Designer
+  - Report Manager
+  - Report Creator
+  - Social Media Manager
+Editor: (list)
+  - Blog Editor
+  - Wiki Editor
+  - Forum Editor
+  - Newsletter Editor
+  - Article Editor
+  - RSS Feed Editor
+  - Report Editor
+User: (list)
+  - Report Viewer
+  - Blog Contributor
+  - Wiki Contributor
+  - Forum Contributor
+  - Newsletter Contributor
+Document Created On: Wednesday, August 2, 2017
+Document Last Updated On: Wednesday, August 2, 2017
+...
